@@ -319,9 +319,9 @@ function showSlides() {
           body.css('background', backgrounds[current = ++current % backgrounds.length]);
           body.fadeIn(400);
         });
-        smallVar = setTimeout(nextBackground, 7000);
+        smallVar = setTimeout(nextBackground, 5000);
     }
-    myVar = setTimeout(nextBackground, 7000);
+    myVar = setTimeout(nextBackground, 5000);
     body.css('background', backgrounds[0]);
 }
 
